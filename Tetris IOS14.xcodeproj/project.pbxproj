@@ -39,6 +39,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24B60FFE26D8199E003529E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				24D19D3C26D813B4002A6E48 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		24B60FFF26D819A4003529E8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				24D19D3A26D813B4002A6E48 /* GameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		24B6100126D819AE003529E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		24D19D2626D813B3002A6E48 = {
 			isa = PBXGroup;
 			children = (
@@ -58,12 +81,13 @@
 		24D19D3126D813B4002A6E48 /* Tetris IOS14 */ = {
 			isa = PBXGroup;
 			children = (
+				24B60FFF26D819A4003529E8 /* Controllers */,
+				24B6100126D819AE003529E8 /* Models */,
+				24B60FFE26D8199E003529E8 /* Views */,
 				24D19D3226D813B4002A6E48 /* AppDelegate.swift */,
 				24D19D3426D813B4002A6E48 /* GameScene.sks */,
 				24D19D3626D813B4002A6E48 /* Actions.sks */,
 				24D19D3826D813B4002A6E48 /* GameScene.swift */,
-				24D19D3A26D813B4002A6E48 /* GameViewController.swift */,
-				24D19D3C26D813B4002A6E48 /* Main.storyboard */,
 				24D19D3F26D813B8002A6E48 /* Assets.xcassets */,
 				24D19D4126D813B8002A6E48 /* Info.plist */,
 			);
