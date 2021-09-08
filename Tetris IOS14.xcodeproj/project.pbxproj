@@ -7,25 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2422BD7426E8E09900AC434C /* tetromino-types.json in Resources */ = {isa = PBXBuildFile; fileRef = 2422BD7326E8E09800AC434C /* tetromino-types.json */; };
+		2422BD7926E8E13100AC434C /* Bundle-Decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422BD7826E8E13100AC434C /* Bundle-Decoding.swift */; };
+		2422BD7C26E8E89B00AC434C /* waves.json in Resources */ = {isa = PBXBuildFile; fileRef = 2422BD7B26E8E89B00AC434C /* waves.json */; };
+		2422BD7F26E8E94500AC434C /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422BD7E26E8E94500AC434C /* Wave.swift */; };
+		2422BD8326E8FEFC00AC434C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2422BD8226E8FEFC00AC434C /* Assets.xcassets */; };
+		2494BC9426E65FC80096A3E0 /* BoardScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2494BC9326E65FC80096A3E0 /* BoardScene.swift */; };
+		2494BC9A26E668D00096A3E0 /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2494BC9926E668D00096A3E0 /* BoardViewController.swift */; };
 		24D19D3326D813B4002A6E48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19D3226D813B4002A6E48 /* AppDelegate.swift */; };
-		24D19D3526D813B4002A6E48 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24D19D3426D813B4002A6E48 /* GameScene.sks */; };
-		24D19D3726D813B4002A6E48 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24D19D3626D813B4002A6E48 /* Actions.sks */; };
-		24D19D3926D813B4002A6E48 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19D3826D813B4002A6E48 /* GameScene.swift */; };
 		24D19D3B26D813B4002A6E48 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19D3A26D813B4002A6E48 /* GameViewController.swift */; };
 		24D19D3E26D813B4002A6E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D19D3C26D813B4002A6E48 /* Main.storyboard */; };
-		24D19D4026D813B8002A6E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D19D3F26D813B8002A6E48 /* Assets.xcassets */; };
+		24D8685526E7A53900B9C12F /* BoardScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24D8685426E7A53900B9C12F /* BoardScene.sks */; };
+		24D8686126E7A62000B9C12F /* TetrominoNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D8686026E7A62000B9C12F /* TetrominoNode.swift */; };
+		24D8686426E7A6A400B9C12F /* TetrominoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D8686326E7A6A400B9C12F /* TetrominoType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2422BD7326E8E09800AC434C /* tetromino-types.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "tetromino-types.json"; sourceTree = "<group>"; };
+		2422BD7826E8E13100AC434C /* Bundle-Decoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decoding.swift"; sourceTree = "<group>"; };
+		2422BD7B26E8E89B00AC434C /* waves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = waves.json; sourceTree = "<group>"; };
+		2422BD7E26E8E94500AC434C /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
+		2422BD8226E8FEFC00AC434C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		2494BC9326E65FC80096A3E0 /* BoardScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardScene.swift; sourceTree = "<group>"; };
+		2494BC9926E668D00096A3E0 /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
 		24D19D2F26D813B4002A6E48 /* Tetris IOS14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tetris IOS14.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D19D3226D813B4002A6E48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24D19D3426D813B4002A6E48 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		24D19D3626D813B4002A6E48 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		24D19D3826D813B4002A6E48 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		24D19D3A26D813B4002A6E48 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		24D19D3D26D813B4002A6E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		24D19D3F26D813B8002A6E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24D19D4126D813B8002A6E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D8685426E7A53900B9C12F /* BoardScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BoardScene.sks; sourceTree = "<group>"; };
+		24D8686026E7A62000B9C12F /* TetrominoNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrominoNode.swift; sourceTree = "<group>"; };
+		24D8686326E7A6A400B9C12F /* TetrominoType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrominoType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +51,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2422BD7726E8E10200AC434C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2422BD7826E8E13100AC434C /* Bundle-Decoding.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		246F201B26E64950004E76B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2422BD8226E8FEFC00AC434C /* Assets.xcassets */,
+				2494BC9326E65FC80096A3E0 /* BoardScene.swift */,
+				24D8685426E7A53900B9C12F /* BoardScene.sks */,
+				2422BD7326E8E09800AC434C /* tetromino-types.json */,
+				2422BD7B26E8E89B00AC434C /* waves.json */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		24B60FFE26D8199E003529E8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -50,6 +82,7 @@
 		24B60FFF26D819A4003529E8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2494BC9926E668D00096A3E0 /* BoardViewController.swift */,
 				24D19D3A26D813B4002A6E48 /* GameViewController.swift */,
 			);
 			path = Controllers;
@@ -58,6 +91,9 @@
 		24B6100126D819AE003529E8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				24D8686026E7A62000B9C12F /* TetrominoNode.swift */,
+				24D8686326E7A6A400B9C12F /* TetrominoType.swift */,
+				2422BD7E26E8E94500AC434C /* Wave.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -82,13 +118,11 @@
 			isa = PBXGroup;
 			children = (
 				24B60FFF26D819A4003529E8 /* Controllers */,
+				2422BD7726E8E10200AC434C /* Extensions */,
 				24B6100126D819AE003529E8 /* Models */,
 				24B60FFE26D8199E003529E8 /* Views */,
+				246F201B26E64950004E76B7 /* Supporting Files */,
 				24D19D3226D813B4002A6E48 /* AppDelegate.swift */,
-				24D19D3426D813B4002A6E48 /* GameScene.sks */,
-				24D19D3626D813B4002A6E48 /* Actions.sks */,
-				24D19D3826D813B4002A6E48 /* GameScene.swift */,
-				24D19D3F26D813B8002A6E48 /* Assets.xcassets */,
 				24D19D4126D813B8002A6E48 /* Info.plist */,
 			);
 			path = "Tetris IOS14";
@@ -152,9 +186,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				24D19D3E26D813B4002A6E48 /* Main.storyboard in Resources */,
-				24D19D3526D813B4002A6E48 /* GameScene.sks in Resources */,
-				24D19D4026D813B8002A6E48 /* Assets.xcassets in Resources */,
-				24D19D3726D813B4002A6E48 /* Actions.sks in Resources */,
+				24D8685526E7A53900B9C12F /* BoardScene.sks in Resources */,
+				2422BD7C26E8E89B00AC434C /* waves.json in Resources */,
+				2422BD7426E8E09900AC434C /* tetromino-types.json in Resources */,
+				2422BD8326E8FEFC00AC434C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,9 +200,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24D19D3926D813B4002A6E48 /* GameScene.swift in Sources */,
+				2422BD7F26E8E94500AC434C /* Wave.swift in Sources */,
+				24D8686126E7A62000B9C12F /* TetrominoNode.swift in Sources */,
+				2494BC9426E65FC80096A3E0 /* BoardScene.swift in Sources */,
 				24D19D3B26D813B4002A6E48 /* GameViewController.swift in Sources */,
 				24D19D3326D813B4002A6E48 /* AppDelegate.swift in Sources */,
+				2422BD7926E8E13100AC434C /* Bundle-Decoding.swift in Sources */,
+				2494BC9A26E668D00096A3E0 /* BoardViewController.swift in Sources */,
+				24D8686426E7A6A400B9C12F /* TetrominoType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
